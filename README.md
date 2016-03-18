@@ -17,7 +17,7 @@ $ npm install posthtml-remove-attributes --save
 Usage
 -----
 
-``` javascript
+```javascript
 var posthtml = require('posthtml');
 var html = '<div style="display: inline;" class="wow">OMG</div>';
 
