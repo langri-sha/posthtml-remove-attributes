@@ -22,7 +22,7 @@ var posthtml = require('posthtml');
 var html = '<div style="display: inline;" class="wow">OMG</div>';
 
 posthtml([ require('posthtml-remove-attributes')([
-  'class', {name: style, value: /inline/} // The only non-array argument is also possible
+  'class', {name: 'style', value: /inline/} // The only non-array argument is also possible
 ])])
     .process(html)
     .then(function(result) {
