@@ -19,16 +19,22 @@ Usage
 
 ```javascript
 var posthtml = require('posthtml');
+var removeAttributes = require('posthtml-remove-attributes');
+
 var html = '<div style="display: inline;" class="wow">OMG</div>';
 
-posthtml([ require('posthtml-remove-attributes')([
-  'class', {name: 'style', value: /inline/} // The only non-array argument is also possible
-])])
+posthtml([ 
+  removeAttributes([  // The only non-array argument is also possible
+    'class', // match name
+    {name: 'style', value: /inline/} // match name and value
+  ])
+])
     .process(html)
     .then(function(result) {
         console.log(result);
     });
 
+// Yields:
 // <div>OMG</div>
 ```
 
