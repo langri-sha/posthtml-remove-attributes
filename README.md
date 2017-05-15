@@ -1,11 +1,10 @@
 [posthtml](https://github.com/posthtml/posthtml)-remove-attributes
 ==================
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/princed/posthtml-remove-attributes.svg)](https://greenkeeper.io/)
-
 PostHTML plugin to remove attributes unconditionally or with content match
 
-[![Dependency Status](https://img.shields.io/david/princed/posthtml-remove-attributes.svg?style=flat-square)](https://david-dm.org/princed/posthtml-remove-attributes) [![Current version](https://img.shields.io/npm/v/posthtml-remove-attributes.svg?style=flat-square)](https://www.npmjs.com/package/posthtml-remove-attributes) [![Travis Build Status](https://img.shields.io/travis/princed/posthtml-remove-attributes.svg?style=flat-square)](https://travis-ci.org/princed/posthtml-remove-attributes)
+[![Dependency Status](https://img.shields.io/david/princed/posthtml-remove-attributes.svg?style=flat-square)](https://david-dm.org/princed/posthtml-remove-attributes) [![Greenkeeper badge](https://badges.greenkeeper.io/princed/posthtml-remove-attributes.svg)](https://greenkeeper.io/)
+ [![Current version](https://img.shields.io/npm/v/posthtml-remove-attributes.svg?style=flat-square)](https://www.npmjs.com/package/posthtml-remove-attributes) [![Travis Build Status](https://img.shields.io/travis/princed/posthtml-remove-attributes.svg?style=flat-square)](https://travis-ci.org/princed/posthtml-remove-attributes)
 
 Installation
 ------------
